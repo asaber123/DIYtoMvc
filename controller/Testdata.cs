@@ -5,7 +5,7 @@ using DIYtoMvc.Models;
 
 
 namespace DIYtoMvc.Controllers;
-public class HomeController : Controller{
+public class Testdata : Controller{
     public IActionResult Index()
     {
         return View();

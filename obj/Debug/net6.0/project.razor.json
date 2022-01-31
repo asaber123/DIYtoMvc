@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Testdata/Index.cshtml",
+      "TargetPath": "Views\\Testdata\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
