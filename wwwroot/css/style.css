@@ -1,0 +1,692 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Fonts*/
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+/* Börjar med att göra generella regler för sidan */
+* {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.5;
+}
+p {
+  font-size: 1.1rem;
+}
+body {
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: rgb(240, 237, 231);
+}
+.navbar li {
+  list-style: none;
+}
+/* Sylar header delen som är likt på samtliga sidor */
+.header-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+}
+
+.logo img {
+  width: 250px;
+}
+.logo {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  z-index: 3;
+}
+.nav{
+  grid-column: 2/5;
+  grid-row: 1/2;
+  padding-top: 80px;
+  text-align: end;
+  padding-right: 50px;
+}
+.navbar li {
+  display: inline;
+  margin-left: 50px;
+}
+.navbar a {
+  color: black;
+  font-family: "Bebas Neue";
+  font-size: 2rem;
+}
+.home-picture img {
+  width: 100%;
+}
+.home-picture {
+  grid-column: 1/5;
+  grid-row: 2/4;
+}
+/* Här stylar jag citaten */
+
+.main-quote {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.main-quote blockquote {
+  width: 500px;
+}
+.main-quote blockquote h1{
+margin:0%;
+padding: 0%;
+}
+/* Här stylar jag citat för index sidan */
+.index {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+/* Sylar main-bild och text på main index */
+.main-content {
+  background-color:  #89c4c3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content .text {
+  width: 400px;
+  margin-left: 70px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-align: left;
+}
+
+/* Sylar footer och widgets */
+footer {
+  width: 100%;
+  background-color: rgb(240, 237, 231);
+  height: auto;
+  align-items: center;
+}
+
+.widgets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.widgets h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.map,
+.instagram,
+.weather {
+  margin: 30px;
+  text-align: center;
+}
+.instagram .elfsight-app-135be833-b388-4ab5-81ae-cab95c5f6b26 {
+  width: 400px;
+}
+.weather .elfsight-app-5078bcdf-cb44-4df9-a331-81df8680f666 {
+  width: 300px;
+}
+.video {
+  display: flex;
+  justify-content: center;
+}
+/* Stylar copywrite och kontaktinformation som skall vara längst ner på samtliga sidor */
+.copywrite {
+  text-align: center;
+  height: 30px;
+  background-color: #316665;
+  color: rgb(201, 198, 198);
+  padding-top: 5px;
+}
+.copywrite a {
+  color: white;
+}
+
+/* Stylar about desktop-version */
+.about-us {
+  width: 45%;
+  margin: 5%;
+}
+.about-us p{
+  width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-us img {
+  width: 100%;
+}
+
+/* Här stylar jag kontakt delen */
+.contact {
+  width: 25%;
+}
+.contact-text h2 {
+  text-align: left;
+}
+.contact-text {
+  margin-bottom: 100px;
+  width: 100%;
+  flex:1;
+}
+
+/* stylar formuläret */
+/*Här börjar styling för form*/
+input[type="text"],
+select,
+textarea {
+  /*styling till formulärs textrutor*/
+  background-color: rgb(214, 190, 155);
+  margin: 10px;
+  border-radius: 10px;
+}
+fieldset {
+  /*styling till omgivningen av folrmuläret*/
+  border: 3px solid rgb(216, 195, 155);
+  border-radius: 10px;
+  text-align: left;
+  background-color: rgb(226, 221, 213);
+}
+legend {
+  /*stylar texten kontaktformulär*/
+  background-color: rgb(216, 195, 155);
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Här bröjar jag styla NEWS sidan för pc */
+/* Stylar pic-gallery som skall vara sticky på sidan */
+.picture-gallery {
+  display: block;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 100%;
+  padding-left: 5%;
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0;
+}
+
+.picture-gallery h2 {
+  text-align: center;
+}
+.sticky {
+  position: sticky;
+  -webkit-position: sticky;
+  top: 0;
+}
+/* Stylar blogg/news artiklar */
+
+/* huvudrubriken till sidan */
+.main-quote .news {
+  width: 30%;
+  text-align: center;
+}
+/* innehållet i grid */
+.main-content-news {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 60% 35%;
+  grid-template-rows: auto;
+  background-color:   #89c4c3;
+  padding-bottom: 30px;
+}
+/* Börjar styla generella regler för samtliga artiklar */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+
+}
+h5,
+h6 {
+  margin-bottom: 0%;
+}
+h6{
+  font-size: 0.8em;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h4,
+h5 {
+  margin-top: 8%;
+}
+.post {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: rgb(240, 237, 231);
+  padding: 10%;
+  border-radius: 50px;
+  margin: 2%;
+  margin-left: 10%;
+}
+/* Hör så att varje rubrik till artiklarna får en linje under sig */
+.post h3 {
+  border-bottom: 1px solid black;
+}
+/* Sylar citat */
+.quote {
+  background-color:  #89c4c3;
+  border-radius: 50px;
+  padding: 4%;
+}
+.quote-by {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.published {
+  text-align: right;
+}
+.author {
+  text-align: right;
+  font-size: 1.1em;
+  margin-bottom: 1%;
+  font-weight: 800;
+}
+.tags {
+  text-align: right;
+  margin-top: 2%;
+  font-style: italic;
+}
+.ingress {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+/* Stylar tablån */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #bddddd;
+  padding: 5%;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+th {
+  background-color: rgb(170, 157, 182);
+  padding: 10px;
+}
+td {
+  background-color: cadetblue;
+  padding: 5px;
+}
+a {
+  color: #004257;
+  font-weight: 800;
+  text-decoration: none;
+}
+/* Stylar de delar som är text med länkar */
+.indent {
+  margin-left: 4%;
+  padding-left: 2%;
+
+}
+.indent p{
+  margin-top: 5%;
+  font-weight: 600;
+}
+dt{
+  font-weight: 600;
+}
+dd{
+  margin-bottom: 3%;
+}
+/* sylar bilder och bildtexter */
+figcaption {
+  font-size: 0.7em;
+  font-style: italic;
+  text-align: right;
+  line-height: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(236, 236, 234, 0.979);
+}
+
+figure {
+  position: relative;
+}
+figure img {
+  width: 100%;
+}
+/* Stylar listor */
+li{
+  margin: 5px;
+  list-style: square;
+}
+
+
+/* stylar de olika bilderna för de olika artiklarna */
+#post3 figure,
+#post2 figure {
+  width: 30%;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  margin-left: 15px;
+}
+#post3 .middle{
+  width: 35%;
+  float: none;
+  text-align: center;
+  margin: 50px;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#post1 img {
+  max-width: 100%;
+}
+#post2 h4 {
+  line-height: 1em;
+  margin-top: 10%;
+}
+
+/* Här börjar jag styla för ipad */
+@media (max-width: 1100px) {
+  .home-picture{
+    margin-bottom: 5px;
+  }
+/* Gör så att innehåller lägger sig under varandra.  */
+  .main-content {
+    flex-direction: column;
+  }
+  .main-content .text {
+    width: 500px;
+    margin-bottom: 10%;
+    margin-left: 0px;
+  }
+  /* Ändrar storleken på videon */
+  .video iframe {
+    width: 500px;
+    height: 300px;
+    border: none;
+  }
+  /* Ändrar storlek på widgets så att de passar ipad */
+  .widgets{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .map iframe {
+    width: 310px;
+    height: 310px;
+  }
+  .instagram .elfsight-app-135be833-b388-4ab5-81ae-cab95c5f6b26 {
+    width: 310px;
+  }
+  .widgets h2 {
+    font-size: 1em;
+  }
+  /* Tar bort en widget */
+  .weather {
+    display: none;
+  }
+
+  /* Sylar sidan about ipad */
+  .about-us {
+    width: 80%;
+    margin: 5%;
+  }
+  .about-us img {
+    width: 100%;
+  }
+  /* Gör så att denna del läggs längs med varandra */
+  .contact {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+ 
+  }
+
+  .contact-form {
+    width: 90%;
+    flex:1;
+  }
+  /* stylar news ipad */
+  .main-content-news {
+    display: block;
+  }
+  /* Ändrar så att formen passar ipad */
+  .post {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  /* Ändrar så att bild-galleriet nu läggs högst upp på sidan*/
+  .picture-gallery{
+    margin: 0%;
+    padding: 0%;
+  }
+  .picture-gallery {
+    display: block;
+    padding-left: 0%;
+    position: relative;
+    -webkit-position: none;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .sticky {
+    position:relative;
+    -webkit-position: none;
+    top: 0;
+   
+  }/* stylar kassa-knappen */
+.top-right {
+  font-size: 15px;
+  background-color: #e2e7e3;
+  border-radius: 15px;
+  border-color: white;
+  grid-column: 5/6;
+  grid-row: 1/2;
+  justify-self: end;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  color: #404040;
+}
+}
+
+
+/* Här börjar jag styla för mobil-version */
+@media (max-width: 650px) {
+  /* Nu änrar jag uteseendet ganska mycket i headern så att en toogle-bar med huvud-menyn skall passa in */
+  .header-content {
+    display: block;
+    background-color:  #89c4c3;
+  }
+  .navbar a {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+  }
+  /*Gör så att nav-baren inte visas när användaren inte klickar på knappen*/
+  .nav{
+      padding: 0;
+      margin: 0;
+      text-align:center
+  }
+  .navbar li {
+    margin-left: 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color:   #89c4c3;
+    display: none;
+  }
+  .navbar ul{
+      padding: 0;
+  }
+  /*Gör så att menyn visas när användaren klickar på toogle bar. Länkar detta till JS-kod*/
+
+  /*positionerar och stylar toogle-knappen*/
+  .toggle-button {
+    position: absolute;
+    top: 4.3rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 50px;
+  }
+  .toggle-button .bar {
+    height: 8px;
+    width: 100%;
+    background-color: #0C4040;
+    border-radius: 10px;
+  }
+  /* Stylar nu huvud-bilden */
+  .logo img {
+    width: 200px;
+    margin-left: 5%;
+  }
+  /* Ändrar storleken på videon */
+  .video iframe {
+    width: 300px;
+    height: 200px;
+  }
+  .main-content .text {
+    width: 80%;
+    margin-left: 0;
+  }
+  /* Gör så att widgets läggs under varandra */
+  .widgets {
+    display: flex;
+    flex-direction: column;
+  }
+  .map,
+    .instagram{
+    margin: 5px;
+    }
+    /* ÄNdrar storlek och styling på nedre delen av footern */
+  .copywrite {
+    height: 20px;
+    padding-top: 5px;
+    font-size: 0.6em;
+  }
+  .copywrite a{
+    font-size: 0.6rem; 
+  }
+  /* Stylar news för mobilversion */
+  .picture-gallery{
+    display: none;
+  }
+  .posts h2{
+    padding-top: 3%;
+    font-size: 1.5em;
+  }
+  .post{
+      margin: 2%;
+      padding: 3%;
+      border-radius: 20px;
+  }
+  .quote{
+      padding: 2%;
+      margin: 1%;
+  }
+  .ingress{
+    font-size: 1.1rem;
+  }
+  /* stylar de olika bilderna för de olika artiklarna */
+#post3 figure,
+#post2 figure ,
+#post1 figure {
+  width: 100%;
+  margin-top: 20px;
+  float: none;
+  margin-left: 0;
+}
+#post3 .middle{
+  width: 100%;
+  margin: auto;
+
+}
+
+#post1 img {
+  max-width: 100%;
+}
+  /* stylar sidan about */
+
+  .about-us {
+    width: 95%;
+    margin: auto;
+  }
+  .about h1, h2{
+    font-size: 1.3rem;
+  }
+  .about-us img {
+    width: 100%;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  .contact-text{
+    width: 80%;
+    margin-bottom: 50px;
+  }
+  /* Stylar om kontakt-formuläret */
+  .contact-form {
+    width: auto;
+    margin: auto;
+  }
+  legend{
+      font-size: 1rem;
+  }
+  .contact-form{
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  fieldset{
+    padding: 0;
+  }
+
+}
+/* Mediea queries för större skärmar än 1680 */
+@media (min-width: 1700px){
+  /* Ändrar så att bredden så att radlängen inte blir för lång. */
+  .about-us {
+    width: 38%;
+  }
+  .post {
+    margin-left: 28%;
+
+  }
+}

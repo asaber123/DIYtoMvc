@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sv-se">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hemsedal-diy - @ViewData["Title"]</title>
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="~/reset.css" rel="stylesheet" type="text/css" />
+    <!-- favicon -->
+    <link rel="favicon" href="~/img/favicon.ico">
+
+
+    <!-- Jquery cdn som används för plug in bildspel och toggle bar -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <!-- Här länkar jag olika fonts som skall användas -->
+    <!-- font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,700;1,300&family=Nunito+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Logga -->
+            <div class="logo">
+                <a asp-controller="Home" asp-action="Index">
+                    <img src="~/img/diy.png" alt="Hemsedal-diy logga" />
+                </a>
+            </div>
+            <nav class="nav">
+                <!-- Här är kod som används för "toogle-bar"/Hamburger menyn -->
+                <a href="#" class="toggle-button" onclick="toggleFunction()">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <!-- Här är huvudmenyn -->
+                <div class="navbar">
+                    <ul>
+                        <li>
+                            <a asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li>
+                            <a asp-controller="About" asp-action="Index">About</a>
+                        </li>
+                        @* <li><a asp-controller="News" asp-action="Index">News</a></li> *@
+                    </ul>
+                </div>
+            </nav>
+            <!-- Största bilden som syns högst upp på sidan -->
+            <div class="home-picture">
+                <img src="~/img/diy1.jpg" alt="team-medlemmar" />
+            </div>
+        </div>
+    </header>
+    @RenderBody()
+    <footer>
+        <!-- Här är alla widgets som skall läggas vid sidan av varandra och som är länkade ifrån elfsight och google maps -->
+        <div class="widgets">
+            <div class="map">
+                <h2>Find us here:</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1942.8449464717717!2d8.548822516127363!3d60.85964178222024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463fe80f9dcb8329%3A0xe62a3d1991ab26f2!2sFiskumvegen%20150%2C%203560%20Hemsedal!5e0!3m2!1ssv!2sno!4v1608383295496!5m2!1ssv!2sno"
+                    width="400" height="400" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <div class="instagram">
+                <h2>Follow us on instagram</h2>
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-135be833-b388-4ab5-81ae-cab95c5f6b26"></div>
+            </div>
+            <div class="weather">
+                <h2>Weather report</h2>
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                <div class="elfsight-app-5078bcdf-cb44-4df9-a331-81df8680f666"></div>
+            </div>
+        </div>
+        <!-- Copywite och kontaktinformation längst ner på sidan -->
+        <div class="copywrite">
+            Copywrite 2020 <a href="#">Hemsedal diy.</a> Website designed & developed by<a href="#"> Åsa Berglund</a>
+        </div>
+    </footer>
+    <!-- script fil för toggle-bar -->
+    <script src="~/js/script.js"></script>
+</body>
+
+</html>
