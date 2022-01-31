@@ -1,3 +1,4 @@
+@model IEnumerable<DIYtoMvc.Models.Commments>
 @{
     ViewData["Title"] = "Test-data";
 
@@ -11,6 +12,24 @@
     </section>
     <!-- Gör en div på innehåller för att styra positionen via flex -->
     <section class="main-content">
+        <form asp-controller="Home" asp-action="CreateComment" method="Post">
+            <div>
+                <label asp-for="Name"></label>
+                <input asp-for="Name"/>
+            </div>
+            <div>
+                <label asp-for="Comment"></label>
+                <input asp-for="Comment"/>
+            </div>
+        </form>
+        <div class="comments">
+            @foreach (var comment in Model)
+            {
+                <b>@comment.Name</b>
+                <p>@comment.Comment</p>
+            }
+
+        </div>
 
     </section>
 </main>

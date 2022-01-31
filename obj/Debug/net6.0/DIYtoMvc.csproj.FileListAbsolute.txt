@@ -22,3 +22,6 @@
 /Users/asaberglund/Desktop/DIYtoMvc/obj/Debug/net6.0/ref/DIYtoMvc.dll
 /Users/asaberglund/Desktop/DIYtoMvc/obj/Debug/net6.0/DIYtoMvc.pdb
 /Users/asaberglund/Desktop/DIYtoMvc/obj/Debug/net6.0/DIYtoMvc.genruntimeconfig.cache
+/Users/asaberglund/Desktop/DIYtoMvc/bin/Debug/net6.0/comments.json
+/Users/asaberglund/Desktop/DIYtoMvc/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/asaberglund/Desktop/DIYtoMvc/obj/Debug/net6.0/DIYtoMvc.csproj.CopyComplete
