@@ -1,8 +1,12 @@
 namespace DIYtoMvc.Models;
 using System.ComponentModel.DataAnnotations;
 
+
 public class CommmentsModel{
-    public int? Id { get; set; }
+
+    
+    [Required] 
+    public int?  Id { get; set; }
 
     [Required(ErrorMessage ="You must enter a name")]
     public string? Name { get; set; }

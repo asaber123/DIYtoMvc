@@ -10,9 +10,12 @@ namespace DIYtoMvc.Controllers;
 public class Testdata : Controller{
     public IActionResult Index()
     {
-
-
-        return View();
+        //Read json file
+        var JsonStr = System.IO.File.ReadAllText("comments.json");
+        //Convert the json file to a list
+        var JsonObj = JsonConvert.DeserializeObject<List<CommmentsModel>>(JsonStr);
+        //Return it to the view
+        return View(JsonObj);
 
     }
     //This only runns when there is a post request
@@ -30,7 +33,7 @@ public class Testdata : Controller{
             JsonObj.Add(model);
         }
         System.IO.File.WriteAllText("comments.json", JsonConvert.SerializeObject(JsonObj, Formatting.Indented));
-
+        ModelState.Clear();
         }
 
         return View();

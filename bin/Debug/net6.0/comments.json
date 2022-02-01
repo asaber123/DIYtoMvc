@@ -1,13 +1,32 @@
 [
-    {
-     "Id" : 1,
-     "Name": "Åsa",
-     "Comment":"test"
-    },
-    {
-        "Id" : 1,
-        "Name": "Per",
-        "Comment":"test2"
-   
-       }
+  {
+    "Id": 1,
+    "Name": "Åsa",
+    "Comment": "test",
+    "Theme": null
+  },
+  {
+    "Id": 1,
+    "Name": "Per",
+    "Comment": "test2",
+    "Theme": null
+  },
+  {
+    "Id": null,
+    "Name": "BERGLUND",
+    "Comment": "sdasd",
+    "Theme": "dsada"
+  },
+  {
+    "Id": null,
+    "Name": "BERGLUND",
+    "Comment": "sdasd",
+    "Theme": "dsada"
+  },
+  {
+    "Id": null,
+    "Name": "BERGLUND",
+    "Comment": "sdasd",
+    "Theme": "dsada"
+  }
 ]

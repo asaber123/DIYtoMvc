@@ -1,4 +1,3 @@
-@model DIYtoMvc.Models.CommmentsModel
 @{
     ViewData["Title"] = "Test-data";
 
@@ -12,25 +11,11 @@
     </section>
     <!-- Gör en div på innehåller för att styra positionen via flex -->
     <section class="main-content">
-        <form method="Post">
-                <div asp-validation-summary="ModelOnly"></div>
-                <label asp-for="Name"></label> </br>
-                <input asp-for="Name"/>
-                </br>
-                <span asp-validation-for="Name"></span>
-                </br>
-                <label asp-for="Comment"></label></br>
-                <input asp-for="Comment"/>
-                </br>
-                <span asp-validation-for="Comment"></span>
-                </br>
-                <label asp-for="Theme"></label></br>
-                <input asp-for="Theme"/></br>
-                </br>
-                <span asp-validation-for="Theme"></span>
-                </br>
-                <input type="submit" value="Add comment"/>
-        </form>
+        
+        @* <partial name="_comments"/>  *@
+        <partial name="_commentForm"/> 
+
+
         <div class="comments">
             @* @foreach (var comment in Model)
             {
