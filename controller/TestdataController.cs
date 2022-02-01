@@ -11,12 +11,7 @@ public class Testdata : Controller{
     public IActionResult Index()
     {
 
-        // //Read json file and parse
-        // var JsonStr = System.IO.File.ReadAllText("comments.json");
-        // //Making the json file into an instance of the class commments. 
-        // var JsonObj = JsonConvert.DeserializeObject<IEnumerable<Commments>>(JsonStr);
-        // //Sending it to the view
-        // return View(JsonObj);
+
         return View();
 
     }
@@ -24,12 +19,20 @@ public class Testdata : Controller{
     [HttpPost]
     public IActionResult Index(CommmentsModel model){
         if(ModelState.IsValid){
-            //Lagrar data
+        //Store data to json file
+        //Read json file and parse
+        var JsonStr = System.IO.File.ReadAllText("comments.json");
+        //Making the json file into an instance of the class commments. 
+        var JsonObj = JsonConvert.DeserializeObject<List<CommmentsModel>>(JsonStr);
+
+        if(JsonObj != null)
+        {
+            JsonObj.Add(model);
+        }
+        System.IO.File.WriteAllText("comments.json", JsonConvert.SerializeObject(JsonObj, Formatting.Indented));
 
         }
-        else{
 
-        }
         return View();
     }
 }

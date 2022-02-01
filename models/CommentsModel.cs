@@ -4,18 +4,15 @@ using System.ComponentModel.DataAnnotations;
 public class CommmentsModel{
     public int? Id { get; set; }
 
-    [Required]
+    [Required(ErrorMessage ="You must enter a name")]
     public string? Name { get; set; }
 
-    [Required]    
+    [Required(ErrorMessage ="The comment field is empty..")]   
+    [MaxLength(50)] 
     public string? Comment { get; set; }
 
-    [Required]    
+    [Required(ErrorMessage ="Please enter a field")]    
     public string? Theme { get; set; }
-
-    [Required]    
-    public string? Age { get; set; }
-    //public date? Date { get; set; }
 
     public CommmentsModel(){
 
