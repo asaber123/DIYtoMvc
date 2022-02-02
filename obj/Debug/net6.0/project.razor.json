@@ -16298,6 +16298,11 @@
   "RootNamespace": "DIYtoMvc",
   "Documents": [
     {
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/Views/Contact/Index.cshtml",
+      "TargetPath": "Views\\Contact\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
