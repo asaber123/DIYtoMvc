@@ -26,22 +26,9 @@
             }
         
         </div>
-
-
-        <form method="Post" class="comment-form">
-                <div asp-validation-summary="ModelOnly"></div>
-                <label asp-for="Name"></label> </br>
-                <input class="name" asp-for="Name"/></br>
-                <span asp-validation-for="Name"></span>
-                <label asp-for="Theme"></label></br>
-                <input class="theme" asp-for="Theme"/></br>
-                <span asp-validation-for="Theme"></span></br>
-                <label asp-for="Comment"></label></br>
-                <input class="comment" asp-for="Comment"/>
-                <span asp-validation-for="Comment"></span>
-
-                <input class="submit" type="submit" value="Add comment"/>
-        </form>
+                
+        @* <partial name="_comments"/>  *@
+        <partial name="_CommentForm"/> 
 
     </section>
 </main>
