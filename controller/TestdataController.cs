@@ -17,6 +17,8 @@ public class Testdata : Controller{
         var JsonObj = JsonConvert.DeserializeObject<List<CommmentsModel>>(JsonStr);
 
         ViewBag.comments = JsonObj;
+        ViewBag.count = JsonObj.Count();
+
         return View();
 
 
