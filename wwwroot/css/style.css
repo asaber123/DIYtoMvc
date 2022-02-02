@@ -6,16 +6,45 @@
   src: url(fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
+/* Styling for test page */
+.main-content-test{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.comments-div{
+  width: 50%;
+  background-color: #316665;
+  margin: auto;
+  padding:2%;
+  border-radius: 10px;
+  color: white;
+}
+.comment{
+  background-color: white;
+  color: black;
+  padding:2%;
+  border-radius: 10px;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.right-comment{
+  width: 70%;
+}
 
 
 /* Styling comment form */
 .comment-form{
   width: 50%;
+  margin: auto;
   padding-right:5%;
   padding-left:5%;
   padding-top:2%;
   padding-bottom: 2%;
-  margin: 5%;;
+  margin-top: 5%;
+  margin-bottom: 5%;
   background-color: white;
   border-radius: 20px;
 }

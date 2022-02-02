@@ -1,89 +1,76 @@
 @{
-        ViewData["Title"] = "About";
+  ViewData["Title"] = "About";
 }
 <main>
-      <!-- Här är citat delen som skiljer sig från de olika sidorna med hjälp av klasser -->
-      <section class="main-quote">
-        <blockquote class="about">
-          <h1>About us:</h1>
-        </blockquote>
-      </section>
-      <!-- Gör en div på innehåller för att styra positionen via flex -->
-      <section class="main-content">
-        <div class="about-us">
-          <h2>Hemsedal diy</h2>
-          <figure>
-              <img src="~/img/6.jpg" alt="Team-medlemmar" />
-            <figcaption>
-              Hemsedal.diy, 
-              Foto: Panda.takes.pics
-            </figcaption>
-          </figure>
-          <p>
-            Med sunt förnuft kommer man långt Om det finns en standard, använd
-            den. Tex om jag klickar på logotypen ska jag komma tillbaka till
-            förstasidan. Du ska inte förvirra eller irritera dina besökare.
-            Bakåtknappen vet alla var den sitter.
-          </p>
-          <p>
-            Du måste kunna grunderna först Reglerna eller snarare riktlinjerna
-            har finslipats under lång tid. Du ska givetvis känna till dessa, men
-            reglerna ska också tänjas, prövas, ifrågasättas och utvecklas.
-            Typografin och våra läsvanor har nog utvecklats/ändrats mer mellan
-            1996 (då Matthew Carter skapade Georgia och Verdana på uppdrag av
-            Microsoft och internet slog igenom hos gemena man i Sverige) och
-            idag än vad som skedde under hela 1900-talet.
-          </p>
-        </div>
-        <!-- Här börjar kontaktdelen -->
-        <div class="contact">
-          <div class="contact-text">
-            <h2>Contact us:</h2>
-            <p>
-              if you have any questions or want to join our team, plase contact
-              us through our mail, phone or send a text in the form down below.
-              <br />
-              Hope to se you soon!
-            </p>
+  <!-- Här är citat delen som skiljer sig från de olika sidorna med hjälp av klasser -->
+  <section class="main-quote">
+    <blockquote class="about">
+      <h1>About us:</h1>
+    </blockquote>
+  </section>
+  <!-- Gör en div på innehåller för att styra positionen via flex -->
+  <section class="main-content">
+    <div class="about-us">
+      <h2>Hemsedal diy</h2>
+      <figure>
+        <img src="~/img/6.jpg" alt="Team-medlemmar" />
+        <figcaption>
+          Hemsedal.diy,
+          Foto: Panda.takes.pics
+        </figcaption>
+      </figure>
+      <p>
+        Med sunt förnuft kommer man långt Om det finns en standard, använd
+        den. Tex om jag klickar på logotypen ska jag komma tillbaka till
+        förstasidan. Du ska inte förvirra eller irritera dina besökare.
+        Bakåtknappen vet alla var den sitter.
+      </p>
+      <p>
+        Du måste kunna grunderna först Reglerna eller snarare riktlinjerna
+        har finslipats under lång tid. Du ska givetvis känna till dessa, men
+        reglerna ska också tänjas, prövas, ifrågasättas och utvecklas.
+        Typografin och våra läsvanor har nog utvecklats/ändrats mer mellan
+        1996 (då Matthew Carter skapade Georgia och Verdana på uppdrag av
+        Microsoft och internet slog igenom hos gemena man i Sverige) och
+        idag än vad som skedde under hela 1900-talet.
+      </p>
+    </div>
+    <!-- Här börjar kontaktdelen -->
+    <div class="contact">
+      <div class="contact-text">
+        <h2>Contact us:</h2>
 
-            <p>
-              Phone: +46 787 36 87 55 <br />
-              Adress: stupulegen 3569 Hemsedal
-            </p>
-          </div>
-          <div class="contact-form">
-            @* <form>
-              <!--Här börjar formuläret-->
-              <fieldset>
-                <legend>Send a message</legend>
-                <p>
-                  Name:<input
-                    type="text"
-                    name="Namn"
-                    size="15"
-                    maxlength="30"
-                  />
-                </p>
-                <!--Namn-->
-                <p>
-                  Email:<input
-                    type="text"
-                    name="Email"
-                    size="15"
-                    maxlength="30"
-                  />
-                </p>
-                <!--Email-->
-                <p>Message:</p>
-                <!--Här får användaren skriva in meddelandet-->
-                <textarea name="comments" rows="4" cols="30">
-                  Write your message...</textarea
-                >
-                <br />
-                <input type="submit" value="send" />
-              </fieldset>
-            </form> *@
-          </div>
-        </div>
-      </section>
-    </main>
+        <p>
+          if you have any questions or want to join our team, plase contact
+          us through our mail, phone or send a text in the form down below.
+          <br />
+          Hope to se you soon!
+        </p>
+
+        <p>
+          Phone: +46 787 36 87 55 <br />
+          Adress: stupulegen 3569 Hemsedal
+        </p>
+      </div>
+      <div class="contact-form">
+          @{
+            IEnumerable<DIYtoMvc.Models.LeadersModel> leaders = (IEnumerable<DIYtoMvc.Models.LeadersModel>)ViewData["LeadersList"];
+          }
+          <table>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone number</th>
+            </tr>
+            @foreach (LeadersModel leader in leaders)
+            {
+              <tr>
+                <td>@leader.Name</td>
+                <td>@leader.Email</td>
+                <td>@leader.PhoneNumber</td>
+              </tr>
+            }
+      </div>
+    </div>
+  </section>
+</main>

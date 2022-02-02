@@ -11,25 +11,28 @@
         </blockquote>
     </section>
     <!-- Gör en div på innehåller för att styra positionen via flex -->
-    <section class="main-content">
-        
-    
-    <div class="comments-div">
+    <section class="main-content-test">
+
+
+
+                
+        @* <partial name="_comments"/>  *@
+        <partial name="_CommentForm"/> 
+
+            <div class="comments-div">
         <h2>Comments</h2>
         <p>Amount of comments: @ViewBag.count</p>
             @foreach( var item in ViewBag.comments)
             {
                 <div class="comment">
-                    <b>@item.Name</b>
-                    <p>@item.Comment</p>
-                    <b>@item.Theme</b>
+                    <div class="left-comment"><b>@item.Name</b><br><b>@item.Theme</b></div>
+                    
+                    <div class="right-comment"><p>@item.Comment</p></div>
+                    
                 </div>
             }
         
         </div>
-                
-        @* <partial name="_comments"/>  *@
-        <partial name="_CommentForm"/> 
 
     </section>
 </main>
