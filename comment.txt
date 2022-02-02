@@ -1,4 +1,4 @@
-        @model List<DIYtoMvc.Models.CommmentsModel>
+       @model List<DIYtoMvc.Models.CommmentsModel>
 
         
         <div class="comments-div">

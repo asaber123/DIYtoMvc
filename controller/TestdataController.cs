@@ -8,14 +8,17 @@ using Newtonsoft.Json;
 
 namespace DIYtoMvc.Controllers;
 public class Testdata : Controller{
+    [HttpGet("/Test")]
     public IActionResult Index()
     {
         //Read json file
         var JsonStr = System.IO.File.ReadAllText("comments.json");
         //Convert the json file to a list
         var JsonObj = JsonConvert.DeserializeObject<List<CommmentsModel>>(JsonStr);
-        //Return it to the view
-        return View(JsonObj);
+
+        ViewBag.comments = JsonObj;
+        return View();
+
 
     }
     //This only runns when there is a post request
@@ -30,7 +33,9 @@ public class Testdata : Controller{
 
         if(JsonObj != null)
         {
-            JsonObj.Add(model);
+            //Putting dtaa in to ViewBag
+            ViewBag.comments = JsonObj;
+            // JsonObj.Add(model);
         }
         System.IO.File.WriteAllText("comments.json", JsonConvert.SerializeObject(JsonObj, Formatting.Indented));
         ModelState.Clear();
