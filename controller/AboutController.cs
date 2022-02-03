@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using DIYtoMvc.Models;
+using Newtonsoft.Json;
 
 
 namespace DIYtoMvc.Controllers;
@@ -20,6 +21,8 @@ public class About : Controller{
 
             };
         ViewData["LeadersList"] = leaders;
+        
+
 
         return View();
 

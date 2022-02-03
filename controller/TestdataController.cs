@@ -19,6 +19,13 @@ public class Testdata : Controller{
         ViewBag.comments = JsonObj;
         ViewBag.count = JsonObj.Count();
 
+        var date = DateTime.Now;
+        string dateString = date.ToString("yyyy-MM-dd");
+        HttpContext.Session.SetString("sessionDate", "Todays date is " + dateString);
+        string session = HttpContext.Session.GetString("sessionDate");
+        ViewBag.session = session;
+
+
         return View();
 
 
@@ -42,7 +49,6 @@ public class Testdata : Controller{
         System.IO.File.WriteAllText("comments.json", JsonConvert.SerializeObject(JsonObj, Formatting.Indented));
         ModelState.Clear();
         }
-
 
 
         return View();

@@ -3,12 +3,19 @@ var builder = WebApplication.CreateBuilder(args);
 // Activates MVC
 builder.Services.AddControllersWithViews();
 
-//Adding session
+//session variable
 builder.Services.AddDistributedMemoryCache();
 
-builder.Services.AddSession(options => {  
-    options.IdleTimeout = TimeSpan.FromMinutes(1);//You can set Time   
-});  
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromSeconds(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
+// builder.Services.AddSession(options => {  
+//     options.IdleTimeout = TimeSpan.FromMinutes(1);//You can set Time   
+// });  
 
 var app = builder.Build();
 
@@ -24,18 +31,6 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 //Adding session
 app.UseSession();
-
-//session variable
-builder.Services.AddDistributedMemoryCache();
-
-// builder.Services.AddSession(options =>
-// {
-//     options.IdleTimeout = TimeSpan.FromSeconds(10);
-//     options.Cookie.HttpOnly = true;
-//     options.Cookie.IsEssential = true;
-// });
-// app.UseSession();
-
 
 app.UseRouting();
 
