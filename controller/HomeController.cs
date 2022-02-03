@@ -10,7 +10,11 @@ public class HomeController : Controller
 {
     public IActionResult Index()
     {
-
+        var date = DateTime.Now;
+        string dateString = date.ToString("yyyy-MM-dd");
+        HttpContext.Session.SetString("sessionDate", "Todays date is " + dateString);
+        string session = HttpContext.Session.GetString("sessionDate");
+        ViewBag.session = session;
         return View();
 
     }
