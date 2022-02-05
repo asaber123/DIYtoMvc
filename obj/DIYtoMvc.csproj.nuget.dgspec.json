@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/asaberglund/Desktop/DIYtoMvc-1/DIYtoMvc.csproj": {}
+    "/Users/asaberglund/Desktop/DIYtoMvc/DIYtoMvc.csproj": {}
   },
   "projects": {
-    "/Users/asaberglund/Desktop/DIYtoMvc-1/DIYtoMvc.csproj": {
+    "/Users/asaberglund/Desktop/DIYtoMvc/DIYtoMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/asaberglund/Desktop/DIYtoMvc-1/DIYtoMvc.csproj",
+        "projectUniqueName": "/Users/asaberglund/Desktop/DIYtoMvc/DIYtoMvc.csproj",
         "projectName": "DIYtoMvc",
-        "projectPath": "/Users/asaberglund/Desktop/DIYtoMvc-1/DIYtoMvc.csproj",
+        "projectPath": "/Users/asaberglund/Desktop/DIYtoMvc/DIYtoMvc.csproj",
         "packagesPath": "/Users/asaberglund/.nuget/packages/",
-        "outputPath": "/Users/asaberglund/Desktop/DIYtoMvc-1/obj/",
+        "outputPath": "/Users/asaberglund/Desktop/DIYtoMvc/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/asaberglund/.nuget/NuGet/NuGet.Config"

@@ -8,7 +8,7 @@ using Newtonsoft.Json;
 
 namespace DIYtoMvc.Controllers;
 public class Testdata : Controller{
-    [HttpGet("/Test")]
+    // [HttpGet("/Test")]
     public IActionResult Index()
     {
         //Read json file
@@ -47,6 +47,18 @@ public class Testdata : Controller{
         ModelState.Clear();
         }
 
+        // Reading comments
+
+        //Read json file
+        var JsonStr2 = System.IO.File.ReadAllText("comments.json");
+        //Convert the json file to a list
+        var JsonObj2 = JsonConvert.DeserializeObject<List<CommmentsModel>>(JsonStr2);
+
+        ViewBag.comments = JsonObj2;
+        ViewBag.count = JsonObj2.Count();
+
+        string session = HttpContext.Session.GetString("sessionDate");
+        ViewBag.session = session;
 
         return View();
     }

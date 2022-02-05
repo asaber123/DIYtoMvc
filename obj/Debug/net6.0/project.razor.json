@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/DIYtoMvc.csproj",
+  "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/DIYtoMvc.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,43 +16298,43 @@
   "RootNamespace": "DIYtoMvc",
   "Documents": [
     {
-      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/Views/Contact/Index.cshtml",
-      "TargetPath": "Views\\Contact\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/Views/Shared/_CommentForm.cshtml",
-      "TargetPath": "Views\\Shared\\_CommentForm.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/Views/Shared/_layout.cshtml",
-      "TargetPath": "Views\\Shared\\_layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/Views/Testdata/Index.cshtml",
-      "TargetPath": "Views\\Testdata\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/Views/About/Index.cshtml",
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/About/Index.cshtml",
       "TargetPath": "Views\\About\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc-1/Views/_ViewImports.cshtml",
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Shared/_CommentForm.cshtml",
+      "TargetPath": "Views\\Shared\\_CommentForm.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Testdata/Index.cshtml",
+      "TargetPath": "Views\\Testdata\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Contact/Index.cshtml",
+      "TargetPath": "Views\\Contact\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Shared/_layout.cshtml",
+      "TargetPath": "Views\\Shared\\_layout.cshtml",
       "FileKind": "mvc"
     }
   ],

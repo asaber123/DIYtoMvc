@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+mdRJWU2E7atwL41k8cpPAITRWa7Z+116j2jD6buSyQ=",
+  "Hash": "CJTusJ4KLRERR8OT7a4JKb7Ivf9wATQ/VMuYFF+F1jg=",
   "Source": "DIYtoMvc",
   "BasePath": "_content/DIYtoMvc",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DIYtoMvc/wwwroot",
       "Source": "DIYtoMvc",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/.DS_Store",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/.DS_Store",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/css/.DS_Store",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/css/.DS_Store",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "css/.DS_Store",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot/css/.DS_Store"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/css/style.css",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/css/style.css",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot/css/style.css"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/fonts/Bebas_Neue/BebasNeue-Regular.ttf",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/fonts/Bebas_Neue/BebasNeue-Regular.ttf",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "fonts/Bebas_Neue/BebasNeue-Regular.ttf",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot/fonts/Bebas_Neue/BebasNeue-Regular.ttf"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/_PND1097.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/_PND1097.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/_PND1097.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot/img/_PND1097.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/.DS_Store",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/.DS_Store",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/.DS_Store",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot/img/.DS_Store"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/1.avif",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/1.avif",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/1.avif",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot/img/1.avif"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/1.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/1.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/1.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot/img/1.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/1.webp",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/1.webp",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/1.webp",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot/img/1.webp"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/2.avif",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/2.avif",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/2.avif",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot/img/2.avif"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/2.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/2.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/2.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot/img/2.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/2.webp",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/2.webp",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/2.webp",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot/img/2.webp"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/3.avif",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/3.avif",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/3.avif",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot/img/3.avif"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/3.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/3.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/3.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot/img/3.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/3.webp",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/3.webp",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/3.webp",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot/img/3.webp"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/5.avif",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/5.avif",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/5.avif",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot/img/5.avif"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/5.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/5.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/5.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot/img/5.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/5.webp",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/5.webp",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/5.webp",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot/img/5.webp"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/6.avif",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/6.avif",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/6.avif",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/img/6.avif"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/6.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/6.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/6.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot/img/6.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/6.webp",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/6.webp",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/6.webp",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot/img/6.webp"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/7.avif",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/7.avif",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/7.avif",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot/img/7.avif"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/7.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/7.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/7.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot/img/7.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/7.webp",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/7.webp",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/7.webp",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot/img/7.webp"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/diy-favicon.png",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/diy-favicon.png",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/diy-favicon.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot/img/diy-favicon.png"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/diy-favicon.svg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/diy-favicon.svg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/diy-favicon.svg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot/img/diy-favicon.svg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/diy.png",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/diy.png",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/diy.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot/img/diy.png"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/diy.svg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/diy.svg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/diy.svg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot/img/diy.svg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/diy1.avif",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/diy1.avif",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/diy1.avif",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot/img/diy1.avif"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/diy1.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/diy1.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/diy1.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot/img/diy1.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/diy1.webp",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/diy1.webp",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/diy1.webp",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot/img/diy1.webp"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/favicon.ico",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/favicon.ico",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/favicon.ico",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot/img/favicon.ico"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/skate1.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/skate1.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/skate1.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot/img/skate1.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/skate1.svg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/skate1.svg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/skate1.svg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot/img/skate1.svg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/skatepark.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/skatepark.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/skatepark.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot/img/skatepark.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/img/start-mobil.jpg",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/img/start-mobil.jpg",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "img/start-mobil.jpg",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot/img/start-mobil.jpg"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/js/.DS_Store",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/js/.DS_Store",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "js/.DS_Store",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot/js/.DS_Store"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/js/script.js",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/js/script.js",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "js/script.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/js/script.js"
     },
     {
-      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/reset.css",
+      "Identity": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/reset.css",
       "SourceId": "DIYtoMvc",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc-1/wwwroot/",
+      "ContentRoot": "/Users/asaberglund/Desktop/DIYtoMvc/wwwroot/",
       "BasePath": "_content/DIYtoMvc",
       "RelativePath": "reset.css",
       "AssetKind": "All",

@@ -7,32 +7,25 @@
     <!-- Här är citat delen som skiljer sig från de olika sidorna med hjälp av klasser -->
     <section class="main-quote">
         <blockquote class="about">
-            <h1>@ViewBag.session</h1>
+            <h1>Test-data:@ViewBag.session </h1>
         </blockquote>
     </section>
     <!-- Gör en div på innehåller för att styra positionen via flex -->
     <section class="main-content-test">
 
+        <partial name="_CommentForm" />
 
-
-                
-        @* <partial name="_comments"/>  *@
-        <partial name="_CommentForm"/> 
-
-            <div class="comments-div">
-        <h2>Comments</h2>
-        <p>Amount of comments: @ViewBag.count</p>
-            @foreach( var item in ViewBag.comments)
+        <div class="comments-div">
+            <h2>Comments</h2>
+            @foreach (var item in ViewBag.comments)
             {
                 <div class="comment">
-                    <div class="left-comment"><b>@item.Name</b><br><b>@item.Theme</b></div>
-                    
-                    <div class="right-comment"><p>@item.Comment</p></div>
-                    
+                    <b>@item.Name</b>
+                    <p>@item.Comment</p>
+                    <b>@item.Theme</b>
                 </div>
             }
-        
-        </div>
 
+        </div>
     </section>
 </main>
