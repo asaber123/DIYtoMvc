@@ -3,17 +3,26 @@
 
 
 
-        <form method="post" asp-controller="Testdata" class="comment-form">
-                <div asp-validation-summary="ModelOnly"></div></br>
+        <form method="Post" class="comment-form">
+                <div asp-validation-summary="ModelOnly"></div>
                 <label asp-for="Name"></label> </br>
-                <input asp-for="Name"/></br>
-                <span asp-validation-for="Name"></span></br>
-                <label asp-for="Comment"></label></br>
-                <input asp-for="Comment"/>
-                <span asp-validation-for="Comment"></span></br>
+                <input class="name" asp-for="Name"/></br>
+                <span class="errorMessage" asp-validation-for="Name"></span> </br>
                 <label asp-for="Theme"></label></br>
-                <input asp-for="Theme"/></br>
-                <span asp-validation-for="Theme"></span></br>
-                <input class="submit" type="submit" value="Add comment"/>
-        </form>
+                <input class="theme" asp-for="Theme"/></br>
+                <span class="errorMessage" asp-validation-for="Theme"></span></br>
 
+                <label asp-for="Member"></label></br>
+                <input class="member" asp-for="Member"/></br>
+                <span class="errorMessage" asp-validation-for="Member"></span></br>
+
+                <label asp-for="Interests"></label></br>
+                <input class="interests" asp-for="Interests"/></br>
+                <span class="errorMessage" asp-validation-for="Interests"></span></br>
+
+                <label asp-for="Comment"></label></br>
+                <input class="comment" asp-for="Comment"/>
+                <span class="errorMessage" asp-validation-for="Comment"></span>
+
+                <input class="submit" type="submit" value="Add comment"/>
+        </form> 

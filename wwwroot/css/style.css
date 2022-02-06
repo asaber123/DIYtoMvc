@@ -55,12 +55,18 @@
   width: 100%;
   height: 30px;
   border-radius: 10px;
-  
 }
-.comment-form input .submit{
-  width: 50%;
+.errorMessage{
+  color:red;
 }
-
+.submit{
+  background-color: #316665;
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 50px;
+  width: 30px;
+}
 
 
 
