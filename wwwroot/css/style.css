@@ -13,24 +13,33 @@
   flex-direction: column;
 }
 .comments-div{
-  width: 50%;
+  width: 90%;
   background-color: #316665;
   margin: auto;
   padding:2%;
   border-radius: 10px;
   color: white;
 }
-.comment{
+.comment-view{
   background-color: white;
   color: black;
   padding:2%;
-  border-radius: 10px;
-  margin-top: 2%;
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  border:none;
+  margin-top: 2%;
+}
+
+.comment-info{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
 
 }
-.right-comment{
+.comment-text{
   width: 70%;
 }
 
@@ -51,21 +60,57 @@
 .comment-form label{
   font-weight: bold;
 }
-.comment-form input{
-  width: 100%;
-  height: 30px;
-  border-radius: 10px;
-}
-.errorMessage{
-  color:red;
-}
-.submit{
+input[type=submit] {
+  padding:5px 15px; 
   background-color: #316665;
   border: none;
   color: white;
   font-weight: bold;
   height: 50px;
-  width: 30px;
+  width: 200px;
+  border-radius: 10px;
+  
+}
+.name{
+  width: 50%;
+  border:none;
+  border-bottom: 1px solid black;
+  
+}
+.errorMessage{
+  color:red;
+}
+.age-options{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.member{
+  margin-bottom: 4%;
+  margin-top: 2%;
+}
+.theme{
+  width: 50%;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 2%;
+  padding:5px;
+
+  background-color: #3166652a;
+}
+.comment{
+  background-color: white;
+  color: black;
+  padding:2%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border:none;
+  border-bottom: 1px solid black;
 }
 
 

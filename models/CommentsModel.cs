@@ -5,12 +5,12 @@ using System.ComponentModel.DataAnnotations;
 public class CommmentsModel{
     public CommmentsModel(){
     }
-    public CommmentsModel( string name, string comment, string theme, string member, string interests){
+    public CommmentsModel( string name, string comment, string theme, string member, string age){
         this.Name = name;
         this.Comment = comment;
         this.Theme = theme;
         this.Member = member;
-        this.Interests = interests;
+        this.Age = age;
 
     }
 
@@ -24,9 +24,9 @@ public class CommmentsModel{
     [Required(ErrorMessage ="Please enter a field")]    
     public string? Theme { get; set; }
 
-    public string? Member { get; set;}
+    public string? Age { get; set;}
 
-    public string? Interests { get; set; }
+    public string? Member { get; set; }
 
     
     // public class ViewModelComment{

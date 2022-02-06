@@ -1,28 +1,40 @@
-
 @model DIYtoMvc.Models.CommmentsModel
 
 
 
-        <form method="Post" class="comment-form">
-                <div asp-validation-summary="ModelOnly"></div>
-                <label asp-for="Name"></label> </br>
-                <input class="name" asp-for="Name"/></br>
-                <span class="errorMessage" asp-validation-for="Name"></span> </br>
-                <label asp-for="Theme"></label></br>
-                <input class="theme" asp-for="Theme"/></br>
-                <span class="errorMessage" asp-validation-for="Theme"></span></br>
+<form method="Post" class="comment-form">
+        <div asp-validation-summary="ModelOnly"></div>
+        <label asp-for="Name"></label> </br>
+        <input class="name" asp-for="Name" /></br>
+        <span class="errorMessage" asp-validation-for="Name"></span> </br>
 
-                <label asp-for="Member"></label></br>
-                <input class="member" asp-for="Member"/></br>
-                <span class="errorMessage" asp-validation-for="Member"></span></br>
+        <label asp-for="Theme"></label></br>
+        <select class="theme" asp-for="Theme">
+                <option value="Skate">Skate</option>
+                <option value="Skatepark">Skatepark</option>
+                <option value="Improvements">Improvements</option>
+                <option value="Courses">Courses</option>
+                <option value="Skate Camps">Skate Camps</option>
+                <option value="Other">Other</option>
 
-                <label asp-for="Interests"></label></br>
-                <input class="interests" asp-for="Interests"/></br>
-                <span class="errorMessage" asp-validation-for="Interests"></span></br>
+        </select>
+        <span asp-validation-for="Theme"></span></br>
 
-                <label asp-for="Comment"></label></br>
-                <input class="comment" asp-for="Comment"/>
-                <span class="errorMessage" asp-validation-for="Comment"></span>
+        <label asp-for="Age"></label><br />
+        <div class="age-options">
+                <input type="radio" asp-for="Age" value="0-10" />0-10<br />
+                <input type="radio" asp-for="Age" value="10-20" />10-20<br />
+                <input type="radio" asp-for="Age" value="20-40" />20-40<br />
+                <input type="radio" asp-for="Age" value="40 or older" />40 or older<br />
+        </div>
 
-                <input class="submit" type="submit" value="Add comment"/>
-        </form> 
+
+        <label asp-for="Member"></label></br>
+        <input class="member" asp-for="Member" type="checkbox" value="Member"> Member </input><br />
+
+        <label asp-for="Comment"></label></br>
+        <input class="comment" asp-for="Comment" />
+        <span class="errorMessage" asp-validation-for="Comment"></span><br />
+
+        <input class="submit" type="submit" value="Add comment" />
+</form>

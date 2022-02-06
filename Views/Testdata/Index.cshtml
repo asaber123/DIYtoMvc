@@ -17,15 +17,23 @@
 
         <div class="comments-div">
             <h2>Comments</h2>
-            @if(ViewBag.comments != null){
+            @if (ViewBag.comments != null)
+            {
                 @foreach (var item in ViewBag.comments)
                 {
-                    <div class="comment">
-                        <b>@item.Name</b>
-                        <p>@item.Comment</p>
-                        <b>@item.Theme</b>
-                        <b>@item.Member</b>
-                        <b>@item.Interests</b>
+                    <div class="comment-view">
+                        <div class="comment-info">
+                            <b>@item.Name</b>
+                            <i>@item.Theme</i>
+                            @if(item.Member != "false") {<b> @item.Member</b>}
+                            <i>Age: @item.Age </i>
+                        </div>
+                        <div class="comment-text">
+                            <b>Comment:</b>
+                            <p>@item.Comment</p>
+                        </div>
+
+
 
                     </div>
                 }
