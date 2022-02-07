@@ -7,52 +7,31 @@
     "Member": "Member"
   },
   {
-    "Name": "Per",
-    "Comment": "sdaasd",
-    "Theme": "Skatepark",
-    "Age": "20-40",
+    "Name": "åsa",
+    "Comment": "dasdadasdasd",
+    "Theme": "Improvements",
+    "Age": "10-20",
     "Member": "false"
   },
   {
-    "Name": "Per",
-    "Comment": "sdaasd",
-    "Theme": "Skatepark",
-    "Age": "20-40",
+    "Name": "åsa",
+    "Comment": "dasdadasdasd",
+    "Theme": "Improvements",
+    "Age": "10-20",
     "Member": "false"
   },
   {
-    "Name": "Per",
-    "Comment": "sdaasd",
-    "Theme": "Skatepark",
-    "Age": "20-40",
-    "Member": "false"
+    "Name": "Testperson",
+    "Comment": "Här är lite text",
+    "Theme": "Improvements",
+    "Age": "10-20",
+    "Member": "Member"
   },
   {
-    "Name": "Per",
-    "Comment": "sdaasd",
-    "Theme": "Skatepark",
-    "Age": "20-40",
-    "Member": "false"
-  },
-  {
-    "Name": "Per",
-    "Comment": "sdaasd",
-    "Theme": "Skatepark",
-    "Age": "20-40",
-    "Member": "false"
-  },
-  {
-    "Name": "Per",
-    "Comment": "sdaasd",
-    "Theme": "Skatepark",
-    "Age": "20-40",
-    "Member": "false"
-  },
-  {
-    "Name": "dsadasd",
-    "Comment": "dsadsad",
-    "Theme": "Courses",
-    "Age": "0-10",
-    "Member": "false"
+    "Name": "Testperson",
+    "Comment": "Här är lite text",
+    "Theme": "Improvements",
+    "Age": "10-20",
+    "Member": "Member"
   }
 ]

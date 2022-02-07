@@ -19,10 +19,24 @@ public class Testdata : Controller{
         ViewBag.comments = JsonObj;
         ViewBag.count = JsonObj.Count();
 
+
         string session = HttpContext.Session.GetString("sessionDate");
+
+
         ViewBag.session = session;
 
 
+
+        var date = DateTime.Now;
+        string dateString = date.ToString("H:mm:ss");
+        DateTime time2 = DateTime.Parse(dateString);    
+        DateTime time1 = DateTime.Parse(ViewBag.session);
+        TimeSpan ts = time2 - time1;
+        ViewBag.amountOfTime = ts;
+
+
+
+        
         return View();
 
 
@@ -60,8 +74,20 @@ public class Testdata : Controller{
 
         
 
-        // string session = HttpContext.Session.GetString("sessionDate");
-        // ViewBag.session = session;
+        string session = HttpContext.Session.GetString("sessionDate");
+        ViewBag.session = session;
+
+
+
+        var date = DateTime.Now;
+        string dateString = date.ToString("H:mm:ss");
+        DateTime time2 = DateTime.Parse(dateString);    
+        DateTime time1 = DateTime.Parse(ViewBag.session);
+        TimeSpan ts = time2 - time1;
+        ViewBag.amountOfTime = ts;
+
+
+
 
         return View();
     }

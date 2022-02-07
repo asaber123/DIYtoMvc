@@ -1,29 +1,22 @@
-@model DIYtoMvc.Models.CommmentsModel
+@model List<DIYtoMvc.Models.CommmentsModel>
+
 @{
     ViewData["Title"] = "Test-data";
-
-
 
 }
 <main>
     <!-- Här är citat delen som skiljer sig från de olika sidorna med hjälp av klasser -->
     <section class="main-quote">
         <blockquote class="about">
-            <h2>You were at the home page at:  @ViewBag.session</h2>
-            <p> click <button> <a asp-controller="Testdata" asp-action="Index">here</a> </button>to check how long time it was since you entered home page </p> @ViewBag.amountOfTime 
+            <h2>Comments from view model:</h2>
         </blockquote>
     </section>
     <!-- Gör en div på innehåller för att styra positionen via flex -->
     <section class="main-content-test">
-
-        <partial name="_CommentForm" />
-
         <div class="comments-div">
-            <h2>Ammounts of comments: @ViewBag.count </h2>
-            @if (ViewBag.comments != null)
+            @if(Model != null)
             {
-                
-                @foreach (var comment in ViewBag.comments)
+                @foreach (var comment in Model)
                 {
                     <div class="comment-view">
                         <div class="comment-info">
@@ -37,13 +30,11 @@
                             <p>@comment.Comment</p>
                         </div>
 
-
-
                     </div>
                 }
             }
+            </div>
 
-        </div>
     </section>
           <partial name="_Widgets" />
 

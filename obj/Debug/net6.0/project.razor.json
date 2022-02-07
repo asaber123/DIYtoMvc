@@ -16298,6 +16298,16 @@
   "RootNamespace": "DIYtoMvc",
   "Documents": [
     {
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Shared/_Widgets.cshtml",
+      "TargetPath": "Views\\Shared\\_Widgets.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Comments/Index.cshtml",
+      "TargetPath": "Views\\Comments\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/About/Index.cshtml",
       "TargetPath": "Views\\About\\Index.cshtml",
       "FileKind": "mvc"
@@ -16315,11 +16325,6 @@
     {
       "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Testdata/Index.cshtml",
       "TargetPath": "Views\\Testdata\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/asaberglund/Desktop/DIYtoMvc/Views/Contact/Index.cshtml",
-      "TargetPath": "Views\\Contact\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
