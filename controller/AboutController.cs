@@ -12,7 +12,7 @@ public class About : Controller{
     //[Route("/about")]
     public IActionResult Index()
     {
-                 //List from viewData
+        //Creating a list with leaders
         List<LeadersModel> leaders = new List<LeadersModel>
             {
                 new LeadersModel {Name = "Åsa Berglund", Email = "asaberglund@diy.no", PhoneNumber = "0808627365" },

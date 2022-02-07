@@ -47,7 +47,7 @@
             </p>
           </div>
           <div class="contact-form">
-
+          @* adding the list of leaderis *@
         @{
             IEnumerable<DIYtoMvc.Models.LeadersModel> leaders = (IEnumerable<DIYtoMvc.Models.LeadersModel>)ViewData["LeadersList"];
           }
@@ -57,6 +57,7 @@
               <th>Email</th>
               <th>Phone number</th>
             </tr>
+            @* Pringrting out the data form View Data *@
             @foreach (LeadersModel leader in leaders)
             {
               <tr>

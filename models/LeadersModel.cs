@@ -1,9 +1,8 @@
 namespace DIYtoMvc.Models;
+//This is the model for the leaders that gets print out on about page. 
 public class LeadersModel
 {
-    //constructor that runns everytime there is an instance ofthe class. 
     public LeadersModel(){}
-    //Constructor that can fill in values from a course
     public LeadersModel(string name, string email, string phoneNumber)
     {
         this.Name = name;

@@ -1,37 +1,30 @@
 [
   {
     "Name": "Åsa",
-    "Comment": "sasadas",
-    "Theme": "Skate",
+    "Comment": "Kommentar",
+    "Theme": "Skatepark",
     "Age": "20-40",
     "Member": "Member"
   },
   {
-    "Name": "åsa",
-    "Comment": "dasdadasdasd",
-    "Theme": "Improvements",
-    "Age": "10-20",
-    "Member": "false"
-  },
-  {
-    "Name": "åsa",
-    "Comment": "dasdadasdasd",
-    "Theme": "Improvements",
-    "Age": "10-20",
-    "Member": "false"
-  },
-  {
     "Name": "Testperson",
-    "Comment": "Här är lite text",
+    "Comment": "Kommentar",
     "Theme": "Improvements",
-    "Age": "10-20",
+    "Age": "20-40",
     "Member": "Member"
   },
   {
-    "Name": "Testperson",
-    "Comment": "Här är lite text",
+    "Name": "Åsa",
+    "Comment": "Kommentar",
     "Theme": "Improvements",
-    "Age": "10-20",
+    "Age": "20-40",
+    "Member": "Member"
+  },
+  {
+    "Name": "Test",
+    "Comment": "Kommentarer",
+    "Theme": "Improvements",
+    "Age": "20-40",
     "Member": "Member"
   }
 ]

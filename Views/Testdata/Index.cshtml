@@ -2,8 +2,6 @@
 @{
     ViewData["Title"] = "Test-data";
 
-
-
 }
 <main>
     <!-- Här är citat delen som skiljer sig från de olika sidorna med hjälp av klasser -->
@@ -19,6 +17,7 @@
         <partial name="_CommentForm" />
 
         <div class="comments-div">
+            @* Printing out comments stored in viewbag *@
             <h2>Ammounts of comments: @ViewBag.count </h2>
             @if (ViewBag.comments != null)
             {
